@@ -1,4 +1,4 @@
-package com.io.github.pedroolivsz.composicao.entities;
+package com.io.github.pedroolivsz.composicao.hourlyContract.entities;
 
 public class Depatment {
     String name;

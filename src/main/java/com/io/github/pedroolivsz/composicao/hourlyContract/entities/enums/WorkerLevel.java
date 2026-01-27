@@ -1,4 +1,4 @@
-package com.io.github.pedroolivsz.composicao.entities.enums;
+package com.io.github.pedroolivsz.composicao.hourlyContract.entities.enums;
 
 public enum WorkerLevel {
     JUNIOR(0),

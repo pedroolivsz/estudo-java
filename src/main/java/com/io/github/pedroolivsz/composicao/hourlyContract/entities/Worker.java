@@ -1,6 +1,6 @@
-package com.io.github.pedroolivsz.composicao.entities;
+package com.io.github.pedroolivsz.composicao.hourlyContract.entities;
 
-import com.io.github.pedroolivsz.composicao.entities.enums.WorkerLevel;
+import com.io.github.pedroolivsz.composicao.hourlyContract.entities.enums.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.Calendar;

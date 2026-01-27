@@ -1,12 +1,11 @@
-package com.io.github.pedroolivsz.composicao.application;
+package com.io.github.pedroolivsz.composicao.hourlyContract.entities.application;
 
-import com.io.github.pedroolivsz.composicao.entities.Depatment;
-import com.io.github.pedroolivsz.composicao.entities.HourContract;
-import com.io.github.pedroolivsz.composicao.entities.Worker;
-import com.io.github.pedroolivsz.composicao.entities.enums.WorkerLevel;
+import com.io.github.pedroolivsz.composicao.hourlyContract.entities.Depatment;
+import com.io.github.pedroolivsz.composicao.hourlyContract.entities.HourContract;
+import com.io.github.pedroolivsz.composicao.hourlyContract.entities.Worker;
+import com.io.github.pedroolivsz.composicao.hourlyContract.entities.enums.WorkerLevel;
 
 import javax.swing.*;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
