@@ -15,11 +15,7 @@ public class BusinessAccount extends Account{
     @Override
     public void withdraw(Double amount) {
         super.withdraw(amount);
-    }
-
-    @Override
-    public void deposit(Double amount) {
-        super.deposit(amount);
+        balance -= 2.0;
     }
 
     public void loan(Double amount) {
