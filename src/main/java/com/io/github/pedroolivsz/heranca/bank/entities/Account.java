@@ -1,14 +1,14 @@
 package com.io.github.pedroolivsz.heranca.bank.entities;
 
 public class Account {
-    private String number;
-    private String holder;
-    private Double balance;
+    protected Integer number;
+    protected String holder;
+    protected Double balance;
 
     public Account() {
     }
 
-    public Account(String number, String holder, Double balance) {
+    public Account(Integer number, String holder, Double balance) {
         this.number = number;
         this.holder = holder;
         this.balance = balance;
@@ -22,11 +22,11 @@ public class Account {
         balance += amount;
     }
 
-    public String getNumber() {
+    public Integer getNumber() {
         return number;
     }
 
-    public void setNumber(String number) {
+    public void setNumber(Integer number) {
         this.number = number;
     }
 
